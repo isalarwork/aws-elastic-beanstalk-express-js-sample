@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/chhasnat/aws-elastic-beanstalk-express-js-sample.git'
+                git branch: 'main', url: 'https://github.com/isalarwork/aws-elastic-beanstalk-express-js-sample.git'
             }
         }
 
